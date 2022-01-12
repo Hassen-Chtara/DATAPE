@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+{% for i in Domains %}
+<h1>{{ i.name }}</h1>
+<hr>
+<div class="container">
+{% for j in Domains[i] %}
+<div class="item"><h1>{{j.id}}</h1><hr>
+<div>
+<pre><code>
+{{j.content}}
+</code></pre>	
+</div>
+ </div>
+ {% endfor %}
+</div>
+{% endfor  %}
+{% endblock content %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class="add_domain">
+<form action="/profile" method="post" >
+	<label><h1>Add Domain</h1></label>
+<input type="text" name="domain">
+<input type="submit" name="submit" placeholder="ADD">
+</form>
+	</div>
+{% for i,j in domains %}	
+<div class="list">
+<h4>{{i}}</h4><p>{{ j }}</p> 
+
+</div>	
+{% endfor %}		
+{% endblock content %}

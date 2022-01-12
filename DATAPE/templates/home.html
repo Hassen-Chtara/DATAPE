@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>DATAPE</h1>
+<hr>
+<h3>we bring life to your static website .<br> with DATAPE make the form of your static site valuable.</h3>
+<form action="signup.html">
+    <input type="submit" value="Signup for free" />
+</form>	
+<div class="content">
+
+<h2>How to use</h2>
+<hr><br>
+<p>Just point your forms at DATAPE, and you're done.</p>
+<pre><code class="language-html">
+&lt;form action=&quot;https://DATAPE/api/abc123def456&quot;&gt;
+&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;Foulen Ben foulen&quot;/&gt; 
+&lt;input type=&quot;text&quot; name=&quot;email&quot; value=&quot;Foulen@example.com&quot;/&gt; 
+&lt;input type=&quot;submit&quot; value=&quot;Send&quot;&gt;
+ &lt;/form&gt;
+</code></pre>
+<p>every user have a link that he use is to point <br> <a href="{{ url_for('signup') }}"> sing up to get one</a></p>
+
+
+</div>
+
+{% endblock content %}
+

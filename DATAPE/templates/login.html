@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Welcome Back</h1>
+<hr>
+<div class="content">
+<form action="/login" method="post">
+    <label for="username">Username</label><br>
+    <input type="text" placeholder="Enter Username" name="username" required><br>
+    <label for="password">Password</label><br>
+    <input type="password" placeholder="Enter Password" name="password" required><br>
+    <button type="submit">Login</button><br>
+  <hr>
+  <div class="container">
+    <span >Don't have an account <a href="signup.html">Signup</a></span>
+  </div>
+</form>
+</div>
+{% endblock content %}

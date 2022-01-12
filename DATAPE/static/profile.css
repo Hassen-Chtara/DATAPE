@@ -1,0 +1,56 @@
+body {
+	height: 60% ;
+}
+footer {
+	position: relative;	
+	bottom: -100%;
+}
+
+.add_domain,.list {
+	text-align: center;
+	padding: 5px;
+margin: 10% 0% 0% 35% ;
+width: 25%;
+border: 2px solid #ff5858 ;
+border-radius: 3px ;
+}
+.list {
+	background-color: #ff5858;
+	color: #ffffff;
+	margin-top: 2%; 
+}
+.list:hover{
+	background-color: #ffffff;
+	color: #ff5858;
+
+}
+.list>h4 {
+	font-size: 20px ;
+}
+.list>p {
+	font-size: 15px ;
+}
+		
+
+
+
+ .add_domain label h1 {
+ 	color: #ff5858 ;
+ 	font-size: 40px;
+ 	margin: 10px;		
+ } 
+ .add_domain input[type=submit] {
+ 	background-color: #ff5858 ;
+ 	font-size: 20px ;
+ 	border: 2px solid #ffffff ;
+ 	color: white;
+
+ }
+.add_domain input[type=submit]:hover {
+ 	background-color:  #ffffff ;
+ 	border: 2px solid #ff5858 ; 
+ 	color: #ff5858;
+ }
+input[type=text] {
+	font-size: 20px;
+}
